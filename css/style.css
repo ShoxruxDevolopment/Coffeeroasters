@@ -12,6 +12,7 @@ html{
 }
 .site-wrapper{
   width: 1440px;
+  height: auto;
   margin: auto;
   background-color:#fff;
 
@@ -239,9 +240,10 @@ header{
 /* Why choose us */
 .why-choose-us-wrapper{
   width: 100%;
-  height: 920px;
+  height: 913px;
   border:1px solid orange;
   background-color:#fff;
+  margin-bottom: 80px;
 
 }
 .why-choose-us-section{
@@ -279,7 +281,8 @@ header{
   height: 629px;
   margin: auto;
   margin-top: 80px;
-  border:1px solid red;
+  /* margin-bottom: 80px; */
+  /* border:1px solid red; */
 }
 .letters{
   position: absolute;
@@ -292,7 +295,7 @@ header{
   width: 433px;
   height: auto;
   /* flex-grow: 1; */
-  border:1px solid blue;
+  /* border:1px solid blue; */
 
 }
 .card:not(last-child){
@@ -323,4 +326,110 @@ header{
   color:#333333;
   margin-top: 10px;
 
+}
+.how-it-works{
+  display: flex;
+  flex-direction: column;
+  /* align-items:center; */
+  width: 1400px;
+  height: 826px;
+  margin: auto;
+  /* margin-top: 80px; */
+  border:1px solid red;
+  background-color:#096c56;
+  padding: 50px 30px;
+}
+.how-heading{
+ font-size: 50px;
+ line-height: 58px;
+ font-family: var(--fonts);
+ font-weight: 700;
+ color:#fff;
+ text-transform: uppercase;
+ margin: auto;
+ text-align: center;
+ /* margin-top: 50px; */
+ margin-bottom: 80px;
+
+}
+.boxes{
+ display: flex;
+ margin-bottom: 20px;
+}
+.square{
+  /* display: flex; */
+  width: 60px;
+  height: 60px;
+  border:4px solid #C99B67;
+  background-color:#F8F8F2;
+
+
+}
+hr{
+  width: 393px;
+  border:none;
+  border-top: 3px dashed #C99B67;
+  margin-top: 30px;
+
+}
+
+.how-it-works-container{
+  display: flex;
+  width: 1339px;
+  height: 396px;
+  margin: auto;
+  border:1px solid greenyellow;
+  margin-bottom: 60px;
+}
+.how-it-works-card{
+
+  width: 433px;
+  height: 396px;
+  background-color:#F8F8F2;
+  padding: 20px 20px 40px 20px;
+  margin-right: 20px;
+
+
+}
+.how-it-works-card3{
+  margin-right: 0;
+}
+.number{
+  margin: 0;
+  font-size: 64px;
+  line-height: 75px;
+  font-family: var(--fonts);
+  font-weight: 400;
+  color:#333333;
+  text-align: end;
+}
+.number-card-heading{
+  /* width: 231px; */
+  font-size: 40px;
+  line-height: 46px;
+  font-family: var(--fonts);
+  font-weight: 500;
+  text-transform: uppercase;
+  color:#333333;
+  margin-top: 45px;
+}
+.number-card-text{
+  width: 385px;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: var(--fonts);
+  font-weight: 400;
+  color:#333333;
+  margin-top: 10px;
+}
+.btn-bottom{
+  background-color:#C99B67;
+  margin: auto;
+
+}
+.but-img{
+  width: 192px;
+  height: 129px;
+  /* margin:auto; */
+  position: absolute;
 }
